@@ -20,7 +20,11 @@ class Wizard {
     return 'MAGIC BULLET';
     }
   }
-
+this.name = obj.name;
+this.bearded = obj. bearded;
+if (this.bearded === undefined){
+  this.bearded = true;
+}
 
 
 

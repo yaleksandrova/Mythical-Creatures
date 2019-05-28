@@ -15,10 +15,8 @@ class Pirate {
     if (this.booty = 100)
     return 'YAARRR!';
   }
+
 }
-
-
-
 
 
 module.exports = Pirate;

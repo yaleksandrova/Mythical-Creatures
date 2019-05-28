@@ -26,7 +26,7 @@ describe('Medusa', function() {
 
   // Pass first 3 tests for Person down below
 
-  it('should gain a statue when staring at a person', function() {
+  it.only('should gain a statue when staring at a person', function() {
     var medusa = new Medusa('Brenna');
     var victim = new Person('Jhun');
 
@@ -37,7 +37,7 @@ describe('Medusa', function() {
 
   });
 
-  it('should only be able to have three victims as a statue', function() {
+  it.only('should only be able to have three victims as a statue', function() {
     var medusa = new Medusa('Meeka');
     var victim1 = new Person('Lousia');
     var victim2 = new Person('Bree');
